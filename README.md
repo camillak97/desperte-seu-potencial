@@ -1,59 +1,219 @@
-<header>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Desperte Seu Potencial - Transforme Sua Vida em 30 Dias | R$9,90</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: linear-gradient(135deg, #006d77 0%, #83c5be 100%);
+      color: #1a1a1a;
+      min-height: 100vh;
+      padding: 40px 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .container {
+      background: #ffffffdd;
+      max-width: 960px;
+      border-radius: 16px;
+      padding: 40px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+      backdrop-filter: blur(10px);
+      overflow: hidden;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    header h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      color: #0a3d62;
+      margin-bottom: 12px;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.25);
+    }
+    header p {
+      font-size: 1.25rem;
+      color: #1e3a8a;
+      letter-spacing: 0.05em;
+      font-weight: 600;
+    }
+    .price {
+      text-align: center;
+      font-size: 2.5rem;
+      color: #e63946;
+      font-weight: 800;
+      margin: 30px 0;
+      letter-spacing: 0.1em;
+      text-shadow: 1px 1px 5px rgba(230,57,70,0.7);
+    }
+    h2 {
+      font-size: 2rem;
+      color: #1e3a8a;
+      margin-bottom: 15px;
+      border-bottom: 3px solid #457b9d;
+      padding-bottom: 6px;
+      font-weight: 700;
+    }
+    h3 {
+      color: #264653;
+      font-weight: 700;
+      margin-top: 32px;
+      margin-bottom: 15px;
+      font-size: 1.5rem;
+    }
+    p {
+      font-size: 1.1rem;
+      color: #333;
+      margin-bottom: 18px;
+      line-height: 1.5;
+    }
+    ul {
+      list-style: inside square;
+      color: #264653;
+      font-size: 1.1rem;
+      margin-bottom: 25px;
+    }
+    ul li {
+      margin-bottom: 10px;
+    }
+    blockquote {
+      background: #f1faee;
+      border-left: 6px solid #a8dadc;
+      padding: 15px 25px;
+      font-style: italic;
+      color: #555;
+      margin: 20px 0 35px 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    blockquote footer {
+      margin-top: 10px;
+      text-align: right;
+      font-weight: 600;
+      color: #1d3557;
+    }
+    .button-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+    }
+    a.buy-button {
+      background: #e63946;
+      color: #fff;
+      font-weight: 700;
+      font-size: 1.5rem;
+      padding: 18px 60px;
+      border-radius: 50px;
+      text-decoration: none;
+      box-shadow: 0 8px 20px rgba(230,57,70,0.6);
+      transition: background-color 0.3s ease, transform 0.2s ease;
+      user-select: none;
+    }
+    a.buy-button:hover,
+    a.buy-button:focus {
+      background-color: #b3222d;
+      transform: scale(1.05);
+      box-shadow: 0 10px 30px rgba(179,34,45,0.7);
+      outline: none;
+    }
+    footer {
+      margin-top: 50px;
+      text-align: center;
+      color: #b0b0b0;
+      font-size: 0.9rem;
+      user-select: none;
+      letter-spacing: 0.05em;
+    }
+    @media (max-width: 768px) {
+      body {
+        padding: 25px 10px;
+      }
+      .container {
+        padding: 30px 20px;
+      }
+      header h1 {
+        font-size: 2.25rem;
+      }
+      h2 {
+        font-size: 1.75rem;
+      }
+      h3 {
+        font-size: 1.25rem;
+      }
+      .price {
+        font-size: 2rem;
+      }
+      a.buy-button {
+        font-size: 1.25rem;
+        padding: 16px 45px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container" role="main" aria-label="Página de vendas do curso Desperte Seu Potencial">
+    <header>
+      <h1>Desperte Seu Potencial: Transforme Sua Vida em 30 Dias</h1>
+      <p>Curso completo para autoconhecimento, definição de metas, hábitos produtivos e mindset para o sucesso</p>
+    </header>
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
+    <p class="price" aria-label="Preço do produto">INVISTA AGORA POR APENAS <strong>R$ 9,90</strong></p>
 
-# GitHub Pages
+    <section>
+      <h2>Sobre o Curso</h2>
+      <p>Este programa transformador é a chave para você sair do comodismo e começar a alcançar seus objetivos reais com clareza, disciplina e motivação. Com conteúdos profundos e práticos, você será guiado em uma jornada de autodescoberta e mudança efetiva em apenas 30 dias.</p>
+    </section>
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
+    <section>
+      <h2>O que você vai aprender</h2>
+      <ul>
+        <li><strong>Semana 1 - Autoconhecimento:</strong> Descubra suas verdadeiras paixões e valores e elimine pensamentos sabotadores que te impedem de avançar.</li>
+        <li><strong>Semana 2 - Definição de Metas SMART:</strong> Aprenda a criar objetivos inteligentes com prazos e planos de ação eficazes para garantir resultados.</li>
+        <li><strong>Semana 3 - Desenvolvimento de Hábitos Positivos:</strong> Entenda a ciência dos hábitos e implemente mudanças que vão transformar seu dia a dia.</li>
+        <li><strong>Semana 4 - Mindset e Motivação:</strong> Fortaleça sua mentalidade, mantenha-se disciplinado e motivado para vencer desafios e prosperar.</li>
+      </ul>
+    </section>
 
-</header>
+    <section>
+      <h2>Recursos Exclusivos Incluídos</h2>
+      <ul>
+        <li>Exercícios e materiais complementares para download, incluindo PDFs e planilhas.</li>
+        <li>Garantia de satisfação: 7 dias para reembolso integral.</li>
+      </ul>
+    </section>
 
-<!--
-  <<< Author notes: Step 2 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
-  Historic note: previous version checked for empty pull request, changed to the correct theme `minima`.
--->
+    <section>
+      <h2>O que nossos alunos dizem</h2>
+      <blockquote>
+        <p>"Eu nunca pensei que em apenas 30 dias conseguiria mudar tanto minha mentalidade e rotina. Isso me deu a energia para focar no meu crescimento pessoal e profissional!"</p>
+        <footer>- Júlia M.</footer>
+      </blockquote>
+      <blockquote>
+        <p>"O método é simples, direto, e os exercícios ajudam mesmo. Me sinto mais produtivo e confiante a cada dia."</p>
+        <footer>- Marcelo F.</footer>
+      </blockquote>
+    </section>
 
-## Step 2: Configure your site
+    <div class="button-container">
+      <a href="https://www.hotmart.com/product-page-url" target="_blank" rel="noopener" class="buy-button" aria-label="Comprar curso Desperte Seu Potencial por nove reais e noventa centavos">
+        Comprar Agora por R$ 9,90
+      </a>
+    </div>
+  </div>
 
-_You turned on GitHub Pages! :tada:_
+  <footer role="contentinfo">
+    <p>© 2024 Desperte Seu Potencial - Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
 
-We'll work in a branch, `my-pages`, that I created for you to get this site looking great. :sparkle:
-
-Jekyll uses a file titled `_config.yml` to store settings for your site, your theme, and reusable content like your site title and GitHub handle. You can check out the `_config.yml` file on the **Code** tab of your repository.
-
-We need to use a blog-ready theme. For this activity, we will use a theme named "minima".
-
-### :keyboard: Activity: Configure your site
-
-1. Browse to the `_config.yml` file in the `my-pages` branch.
-1. In the upper right corner, open the file editor.
-1. Add a `theme:` set to **minima** so it shows in the `_config.yml` file as below:
-   ```yml
-   theme: minima
-   ```
-1. (optional) You can modify the other configuration variables such as `title:`, `author:`, and `description:` to further customize your site.
-1. Commit your changes.
-1. (optional) Create a pull request to view all the changes you'll make throughout this course. Click the **Pull Requests** tab, click **New pull request**, set `base: main` and `compare:my-pages`.
-1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
-
-<footer>
-
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
-
----
-
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
-</footer>
